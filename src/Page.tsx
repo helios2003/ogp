@@ -38,8 +38,8 @@ export default function Page() {
         <>
             <Helmet>
                 <title>{title}</title>
-                <meta property="og:title" content={title} />
-                <meta property="og:description" content={description} />
+                <meta property="og:title" content={title} data-rh="true" />
+                <meta property="og:description" content={description} data-rh="true" />
             </Helmet>
             <input
                 type="text"
